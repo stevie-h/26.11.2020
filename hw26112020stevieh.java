@@ -21,8 +21,19 @@ public class Main
 {
     public static void main(String[] args)
     {
-    
-    
-    
+       String id = "987654321";
+       String full_name = "Stevie H";
+       String address = "111 Tagore St, Tel Aviv";
+       String details = "Details: " + id + "   " + full_name + "   " + address;
+       System.out.println(details);
+      
+       java.util.Scanner pr = new Scanner(System.in);
+       System.out.print("Please enter your first name: ");
+       String fname = pr.nextLine();
+       System.out.print("Please enter your last name: ");
+       String lname = pr.nextLine();
+       System.out.println("Your full name is " + fname + " " + lname);
+       
+       
     }
 }

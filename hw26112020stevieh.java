@@ -9,9 +9,9 @@
 7. *etgar: 
    create String fname variable and read from the keyboard the first name of the user
    create String lname variable and read from the keyboard the last name of the user
-   then print the user first_name and last name in one line...
+   then print the user first name and last name in one line...
    
-   */
+ */
    
 package com.company;
 
@@ -32,8 +32,7 @@ public class Main
        String fname = pr.nextLine();
        System.out.print("Please enter your last name: ");
        String lname = pr.nextLine();
-       System.out.println("Your full name is " + fname + " " + lname);
-       
+       System.out.println("Your full name is " + fname + " " + lname); 
        
     }
 }
